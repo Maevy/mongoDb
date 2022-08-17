@@ -19,7 +19,7 @@ create table wphg_checkliste
     name                                                       varchar(max)
 )
     go
-INSERT INTO wphg_checkliste (id, created_date, deleted_date, letzte_fachliche_bearbeitung_datum) VALUES (1, N'2022-08-08 12:22:29.1255515', null, N'Geile Checkliste');
+INSERT INTO wphg_checkliste (id, created_date, deleted_date, name) VALUES (1, N'2022-08-08 12:22:29.1255515', null, N'Geile Checkliste');
     go
 create table wphg_prozess
 (
