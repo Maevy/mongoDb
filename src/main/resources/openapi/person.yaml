@@ -4,17 +4,6 @@ info:
   description: Title
   version: 1.0.0
 paths:
-  /abschluss:
-    post:
-      description: 'migrate Abschluss'
-      operationId: migrate
-
-      tags:
-        - Abschluss
-      responses:
-        200:
-          description: 'response of Abschluss'
-
   /person:
     put:
       description: 'Add cool stuff'
